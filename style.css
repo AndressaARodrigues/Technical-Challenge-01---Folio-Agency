@@ -6,7 +6,7 @@
   }
   
   body {
-    height: 100vh;
+    height: 200vh;
     background-color: #FFFFFF;
     background-size: cover;
     background-position: center;
@@ -35,7 +35,7 @@
 
  .navbar {
     width: 100%;
-    height: 70px;
+    height: 60px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -87,7 +87,7 @@
     display: none;
     position: absolute;
     right: 2rem;
-    top: 70px;
+    top: 85px;
     height: 0;
     width: 300px;
     background: rgb(230, 230, 230);
@@ -114,38 +114,51 @@
     justify-content: center;
 }
 
-/* HOME */
-div#home {
-    height: calc(100vh - 70px);
+/* INTRODUCTION */
+.container {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    color: #fff;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
 }
 
-#home h1 {
-    font-size: 5rem;
-    margin-bottom: 1rem;
+.intro_txt {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: #fff;
+    gap: 25px;
+    margin-left: 130px;
+}
+
+.intro_txt h1 {
+    max-width: 467px;
+    font-size: 4.6rem;
     color: #232340;
 }
 
-#home p {
-    font-size: 1.125rem;
+.intro_txt p {
+    max-width: 350px;
+    line-height: 1.8;
+    font-size: 0.9rem;
     color: #606060;
 }
 
-/*#home button*/
 .recent-work_btn{
     background-color: #5468E7;
     color: #fff;
+    max-height: 64px;
+    max-width: 200px;
     padding: 20px 38px;
     border: none;
     outline: none;
     border-radius: 8px;
     font-size: 1.125rem;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     transition: scale 0.2 ease;
 }
@@ -157,6 +170,26 @@ div#home {
 
  .recent-work_btn:active {
     scale: 0.95;
+ }
+
+ .intro_img{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 110px;
+ }
+
+ .intro_img img{
+    position: absolute;
+ }
+
+.intro_img .hero{
+    width: 500px;
+    
+ }
+.intro_img .bg{
+    width: 400px;
+    
  }
 
  /* RESPONSIVE DESIGN */
@@ -173,6 +206,8 @@ div#home {
     .dropdown_menu{
         display: block;
     }
+
+    /*ajustar textp intro*/
 }
 
 @media(max-width: 500px) {
