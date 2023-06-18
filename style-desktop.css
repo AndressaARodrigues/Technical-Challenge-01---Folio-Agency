@@ -1,0 +1,596 @@
+/* 
+   celular 600px a 768px
+   tablet 768px até 992px 
+   desktop 992 até 1200px
+   grandes telas acima de 1200px
+*/
+
+/* PARA DESKTOPS DE 992PX ATÉ 1400PX */
+@media screen and (min-width: 992px) and (max-width: 1139px) { 
+    header{
+        padding: 44px 72px 90px 72px;
+    }
+
+    .navbar {
+        height: 64px;
+    }
+
+    .logo_mobile{
+        display: none;
+    }
+
+    .logo_desktop{
+        display: block;
+    }
+
+    .navbar .menu_items{
+        width: 280px;
+        display: block;
+    }
+
+    .navbar .menu_items ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_items li {
+        list-style: none;
+    }
+
+    .menu_items li a {
+        text-decoration: none;
+        color: #8B8B8B;
+        font-size: 1ren;
+    }
+     
+    .menu_items li a:hover {
+        color:#5468E7;
+    }
+
+    
+    .navbar .contact_btn{
+        display: block;
+    }
+     
+    .contact_btn {
+        width: 180px;
+        height: 64px;
+        background-color: hsl(240, 29%, 19%);
+        padding: 20px 40px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+
+    .contact_btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .contact_btn:hover {
+        scale: 1.05;
+        background-color:#3b3b6a;
+    }
+     
+    .contact_btn:active {
+        scale: 0.95;
+    }
+
+    .navbar .toggle_btn {
+         display: none;
+    }
+
+    .container_intro{
+        height: 600px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+    }
+
+    .intro_txt {
+        width: 50%;
+        height: 560px;
+        align-items: flex-start;
+        color: #fff;
+        padding: 60px 0 0 80px; /*130*/
+    }
+  
+    .intro_txt h1{
+        width: 350px;
+        height: 220px; 
+        /*margin: 0 0;*/
+        font-size: 64px;
+    }
+
+    .intro_txt p {
+        width: 340px;
+        height: 80px;
+        font-size: 14px;
+        color: #606060;
+    }
+     
+    .recent-work_btn{
+        height: 54px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .intro_img-mob{
+        display: none;
+    }
+
+    .intro_img-desk{
+        display: block;
+    }
+     
+    .intro_img-desk{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+     
+    .intro_img-desk img{
+        position: absolute;
+    }
+     
+    .intro_img-desk .hero{
+        width: 654px;
+        height: 470px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+       
+    }
+
+    .intro_img-desk .bg{
+        width: 440px;
+        height: 520px;
+        padding-right: 80px;
+      
+        
+    }
+
+
+
+}
+@media screen and (min-width: 1140px) and (max-width: 1239px) { 
+    header{
+        padding: 44px 72px 90px 72px;
+    }
+
+    .navbar {
+        height: 64px;
+    }
+
+    .logo_mobile{
+        display: none;
+    }
+
+    .logo_desktop{
+        display: block;
+    }
+
+    .navbar .menu_items{
+        width: 280px;
+        display: block;
+    }
+
+    .navbar .menu_items ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_items li {
+        list-style: none;
+    }
+
+    .menu_items li a {
+        text-decoration: none;
+        color: #8B8B8B;
+        font-size: 1ren;
+    }
+     
+    .menu_items li a:hover {
+        color:#5468E7;
+    }
+
+    
+    .navbar .contact_btn{
+        display: block;
+    }
+     
+    .contact_btn {
+        width: 180px;
+        height: 64px;
+        background-color: hsl(240, 29%, 19%);
+        padding: 20px 40px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+
+    .contact_btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .contact_btn:hover {
+        scale: 1.05;
+        background-color:#3b3b6a;
+    }
+     
+    .contact_btn:active {
+        scale: 0.95;
+    }
+
+    .navbar .toggle_btn {
+         display: none;
+    }
+
+    .container_intro{
+        height: 760px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+    }
+
+    .intro_txt {
+        width: 50%;
+        height: 750px;
+        align-items: flex-start;
+        color: #fff;
+        padding: 60px 0 0 100px; /*130*/
+    }
+  
+    .intro_txt h1{
+        width: 400px;
+        height: 250px; 
+        /*margin: 0 0;*/
+        font-size: 74px;
+    }
+
+    .intro_txt p {
+        width: 350px;
+        height: 90px;
+        font-size: 16px;
+        color: #606060;
+    }
+     
+    .recent-work_btn{
+        height: 54px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .intro_img-mob{
+        display: none;
+    }
+
+    .intro_img-desk{
+        display: block;
+    }
+     
+    .intro_img-desk{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+     
+    .intro_img-desk img{
+        position: absolute;
+    }
+     
+    .intro_img-desk .hero{
+        width: 794px;
+        height: 650px;
+        padding-right: 60px;
+        padding-bottom: 90px;
+    }
+
+    .intro_img-desk .bg{
+        width: 523px;
+        height: 700px;
+        padding-right: 100px;
+        padding-bottom: 80px;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 1240px) and (max-width: 1339px) { 
+    header{
+        padding: 44px 72px 90px 72px;
+    }
+
+    .navbar {
+        height: 64px;
+    }
+
+    .logo_mobile{
+        display: none;
+    }
+
+    .logo_desktop{
+        display: block;
+    }
+
+    .navbar .menu_items{
+        width: 280px;
+        display: block;
+    }
+
+    .navbar .menu_items ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_items li {
+        list-style: none;
+    }
+
+    .menu_items li a {
+        text-decoration: none;
+        color: #8B8B8B;
+        font-size: 1ren;
+    }
+     
+    .menu_items li a:hover {
+        color:#5468E7;
+    }
+   
+    .navbar .contact_btn{
+        display: block;
+    }
+     
+    .contact_btn {
+        width: 180px;
+        height: 64px;
+        background-color: hsl(240, 29%, 19%);
+        padding: 20px 40px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+
+    .contact_btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .contact_btn:hover {
+        scale: 1.05;
+        background-color:#3b3b6a;
+    }
+     
+    .contact_btn:active {
+        scale: 0.95;
+    }
+
+    .navbar .toggle_btn {
+         display: none;
+    }
+
+    .container_intro{
+        height: 790px;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: wrap;
+    }
+
+    .intro_txt {
+        width: 50%;
+        height: 750px;
+        align-items: flex-start;
+        color: #fff;
+        padding: 60px 0 0 100px; /*130*/
+    }
+  
+    .intro_txt h1{
+        width: 467px;
+        height: 300px; 
+        /*margin: 0 0;*/
+        font-size: 84px;
+    }
+
+    .intro_txt p {
+        width: 380px;
+        height: 96px;
+        font-size: 18px;
+        color: #606060;
+    }
+     
+    .recent-work_btn{
+        height: 54px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .intro_img-mob{
+        display: none;
+    }
+
+    .intro_img-desk{
+        display: block;
+    }
+     
+    .intro_img-desk{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+     
+    .intro_img-desk img{
+        position: absolute;
+    }
+     
+    .intro_img-desk .hero{
+        width: 824px;
+        height: 660px;
+        padding-right: 60px;
+        padding-bottom: 60px;
+    }
+
+    .intro_img-desk .bg{
+        width: 553px;
+        height: 700px;
+        padding-right: 100px;
+        padding-bottom: 60px;
+        
+    }
+}
+
+@media screen and (min-width: 1340px) {  /*Grandes telas*/
+    header{
+        padding: 44px 72px 90px 72px;
+    }
+
+    .navbar {
+        height: 64px;
+    }
+     
+    .logo_mobile{
+        display: none;
+       
+    }
+
+    .logo_desktop{
+        display: block;
+    }
+     
+    .navbar .menu_items{
+        width: 392px;
+        display: block;
+    }
+
+    .navbar .menu_items ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu_items li {
+        list-style: none;
+    }
+
+    .menu_items li a {
+        text-decoration: none;
+        color: #8B8B8B;
+        font-size: 1ren;
+    }
+     
+    .menu_items li a:hover {
+        color:#5468E7;
+    }
+
+    .navbar .contact_btn{
+        display: block;
+    }
+     
+    .contact_btn {
+        width: 180px;
+        height: 64px;
+        background-color: hsl(240, 29%, 19%);
+        padding: 20px 40px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+    }
+
+    .contact_btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .contact_btn:hover {
+        scale: 1.05;
+        background-color:#3b3b6a;
+    }
+     
+    .contact_btn:active {
+        scale: 0.95;
+    }
+
+    .navbar .toggle_btn {
+         display: none;
+    }
+
+    .container_intro{
+        height: 850px;
+        flex-direction: column; 
+    }
+
+    .intro_txt {
+        width: 50%;
+        height: 780px;
+        align-items: flex-start;
+        color: #fff;
+        padding: 70px 0 0 110px; /*130*/
+    }
+
+    .intro_txt h1{
+        width: 467px;
+        height: 300px; 
+        /*margin: 0 0;*/
+        font-size: 84px;
+    }
+
+    .intro_txt p {
+        min-width: 380px;
+        height: 96px;
+        font-size: 18px;
+        color: #606060;
+    }
+     
+    .recent-work_btn{
+        height: 64px;
+        width: 180px;
+        /*padding: 16px 34px;*/
+        font-size: 18px;
+    }
+
+    .intro_img-mob{
+        display: none;
+    }
+
+    .intro_img-desk{
+        display: block;
+    }
+     
+    .intro_img-desk{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+     
+    .intro_img-desk img{
+        position: absolute;
+    }
+     
+    .intro_img-desk .hero{
+        padding-right: 60px;
+    }
+
+    .intro_img-desk .bg{
+        padding-right: 100px;
+       
+    }
+
+     
+
+}
+
