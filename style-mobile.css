@@ -364,7 +364,7 @@ header {
 
 #container_we-are-hiring{
    width: 375px;
-   height: 1100px;
+   height: 1250px;
    padding-top: 44px;
 }
 .subtitle_section3{
@@ -714,4 +714,30 @@ border-radius: 17.0667px;
 
 .seta_btn i {
    text-align: center;
+}
+
+.contact-us2_btn{
+   Width:313px;
+   Height:56px;
+   background: #5468E7;
+   border: none;
+   outline: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: scale 0.2 ease;
+   color:#FFFFFF;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+}
+
+.contact-us2_btn:hover {
+   scale: 1.05;
+   background-color: #232340;
+   color: #FFFFFF;
+}
+
+.contact-us2_btn:active {
+   scale: 0.95;
 }
