@@ -657,14 +657,16 @@
         gap: 56px;
         justify-content: center;
         align-items: center;
+        padding: 100px  0 0 0;
+
      }
      
      .textos {
-        height: 450px;
+        height: 320px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 100px  0 0 0;
+        padding: 0;
      }
      
      .txt01 {
@@ -682,10 +684,29 @@
      }
      
      .decoration {
-        width: 300px;
-        height: 300px;
+        width: 402px;
+        height: 402px;
         border-radius: 100%;
-        box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 0px 0px 0px #232340;
+        padding-top: 60px ;
+    }
+
+     .titulo {
+        font-weight: 600;
+        font-size: 200px;
+        line-height: 167px;
+        text-align: center;
+        color: #FFFFFF;
+
      }
+     
+     .subtitulo {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+     }
+     
 }
 
