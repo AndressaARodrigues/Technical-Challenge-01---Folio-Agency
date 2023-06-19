@@ -5,7 +5,7 @@
         padding: 44px 70px 90px 70px;
     }
 
-    .navbar {
+    #navbar {
         height: 64px;
     }
 
@@ -17,15 +17,15 @@
         display: none;
     }
 
-    .navbar .menu_items{
+    #navbar .menu_items{
         display: none;
     }
 
-    .navbar .toggle_btn {
+    #navbar .toggle_btn {
          display: block;
     }
 
-    .container_intro{
+    #container_intro{
         height: 890px;
         display: flex;
         flex-direction: row; 
@@ -97,7 +97,7 @@
         padding: 44px 72px 90px 72px;
     }
 
-    .navbar {
+    #navbar {
         height: 64px;
     }
 
@@ -109,15 +109,15 @@
         display: none;
     }
 
-    .navbar .menu_items{
+    #navbar .menu_items{
         display: none;
     }
 
-    .navbar .toggle_btn {
+    #navbar .toggle_btn {
          display: block;
     }
 
-    .container_intro{
+    #container_intro{
         height: 980px;
         display: flex;
         flex-direction: row; 
@@ -187,7 +187,7 @@
         padding: 44px 72px 90px 72px;
     }
 
-    .navbar {
+    #navbar {
         height: 64px;
     }
 
@@ -199,15 +199,15 @@
         display: none;
     }
 
-    .navbar .menu_items{
+    #navbar .menu_items{
         display: none;
     }
 
-    .navbar .toggle_btn {
+    #navbar .toggle_btn {
          display: block;
     }
 
-    .container_intro{
+    #container_intro{
         height: 580px;
         display: flex;
         flex-direction: column; 

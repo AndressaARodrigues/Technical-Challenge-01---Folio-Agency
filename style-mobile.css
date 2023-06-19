@@ -21,7 +21,7 @@ header {
 }
 
 
-.navbar {
+#navbar {
    width: 100%;
    height: 40px;
    margin: 0 auto;
@@ -38,26 +38,26 @@ header {
    display: none;
 }
 
-.navbar .menu_items {
+#navbar .menu_items {
    display: none;
 }
 
-.navbar .contact_btn {
+#navbar .contact_btn {
    display: none;
 }
 
-.navbar .toggle_btn {
+#navbar .toggle_btn {
    display: block;
 }
 
-.navbar .toggle_btn i {
+#navbar .toggle_btn i {
    height: 12px;
    width: 32px;
 }
 
 /* Inicio */
 
-.container_intro {
+#container_intro {
    height: 740px;
    display: flex;
    flex-direction: row; 
@@ -128,17 +128,18 @@ header {
 
 /* Quem somos */
 
-.container_who-we-are {
+#container_who-we-are {
    width: 375px;
    height: 1681px;
    background-color: #232340;
-   padding: 64px 0 0 33px;
+   padding-top: 64px;
 }
 
 .title_section {
    display: flex;
-   width: 124px;
+   width: 157px;
    justify-content: space-between;
+   padding-left: 33px;
 }
 
 .title_section p {
@@ -150,6 +151,10 @@ header {
    color: #FFFFFF;
    font-size: 14px;
    
+}
+
+.subtitle_section {
+   padding-left: 33px;
 }
 
 .subtitle_section p {
@@ -166,6 +171,7 @@ header {
    width: 309px;
    display: flex;
    justify-content: space-between;
+   padding-left: 33px;
 }
 
 .arrows {
@@ -184,7 +190,7 @@ header {
    background-color: #5468E7;
 }
    
-.dropdown_year{
+.dropdown_year {
    width: 130px;
    height: 48px;
    background-color: #232340;
@@ -194,11 +200,394 @@ header {
    font-size: 14px;
 }
 
-.dropdown_year i{
+.dropdown_year i {
    padding-left: 30px ;
 }
 
-.dropdown_year:hover{
+.dropdown_year:hover {
    background-color: #5468E7;
 }
+
+.img_section {
+   width: 375px;
+}
+
+.txt_section {
+   display: flex;
+   flex-direction: column;
+   gap: 56px;
+   align-items: center;
+}
+
+.textos {
+   height: 336px;
+   display: flex;
+   flex-direction: column;
+   padding: 0 32px 0 32px;
+}
+
+.txt01 {
+   font-weight: 700;
+   font-size: 23px;
+   line-height: 32px;
+   color: #FFFFFF;
+}
+
+.txt02 {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 28px;
+   color: #8B8B8B;
+   padding: 44px 0 32px 0;
+}
+
+.decoration {
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+   box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+   font-weight: 600;
+   font-size: 140px;
+   line-height: 167px;
+   text-align: center;
+   color: #FFFFFF;
+   padding-top: 40px;
+}
+
+.subtitulo {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+/* O que fazemos */
+
+#container_what-we-do {
+   width: 375px;
+   height: 1280px;
+   background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+   padding-top: 64px;
+}
+
+.title_section2 {
+   display: flex;
+   width: 157px;
+   justify-content: space-between;
+   padding-left: 33px;
+   color: #5468E7;
+}
+
+.title_section2 p {
+   font-size: 14px;
+}
+
+.title_section2 h2 {
+   font-size: 14px;
+   
+}
+
+.subtitle_section2 {
+   padding-left: 33px;
+}
+
+.subtitle_section2 p {
+   width: 280px;
+   height: 192px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #232340;
+   margin: 24px 0;
+}
+
+
+.arrows2 {
+   width: 48px;
+   height: 48px;
+   background-color: #ADADAD;
+   border: none;
+   outline: none;
+   border-radius: 24px;
+   cursor: pointer;
+   transition: scale 0.2 ease;
+}
+  
+.arrows2:hover {
+   scale: 1.05;
+   background-color: #5468E7;
+}
+
+.cards_section {
+   height: 872px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 24px;
+}
+
+.card {
+   width: 311px;
+   height: 190px;
+   background-color: #FFFFFF;
+   border-radius: 32px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   transition: background-color 0.3s, color 0.3s; /* Adicionado para criar uma transição suave */
+}
+
+.card:hover {
+   background-color: #5468E7;
+   color: #fff;
+}
+
+.card p{
+   font-weight: 600;
+   font-size: 18px;
+   color: #5468E7;
+   transition: color 0.3s; /* Adicionado para criar uma transição suave */
+}
+
+.card:hover p {
+   color: #fff;
+}
+
+
+/* Estamos contratando */
+
+#container_we-are-hiring{
+   width: 375px;
+   height: 1160px;
+   padding-top: 44px;
+}
+.subtitle_section3{
+   padding-left: 32px;
+}
+.subtitle_section3 p {
+   width: 280px;
+   height: 48px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #232340;
+   margin: 24px 0;
+}
+.subtitle_section3 .paragraph{
+   width: 311px;
+   height: 84px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #606060;
+}
+
+.card2 {
+   width: 311px;
+   height: 175px;
+   background-color: #FFFFFF;
+   border-radius: 24px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+   gap: 5px;
+   transition: background-color 0.3s, color 0.3s; /* Adicionado para criar uma transição suave */
+   padding-left: 35px;
+}
+
+.card2:hover {
+   background-color: #232340;
+   color: #fff;
+}
+
+.card2 p {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+   color: #232340;
+   transition: color 0.3s; 
+}
+
+.card2:hover p {
+   color: #fff;
+}
+
+.card2 .paragraph2 {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #606060;
+   transition: color 0.3s; /* Adicionado para criar uma transição suave */
+}
+
+.card2:hover .paragraph2 {
+   color: #fff;
+}
+
+.card2 .seta {
+   color: #232340;
+   transition: color 0.3s; /* Adicionado para criar uma transição suave */
+}
+
+.card2:hover .seta {
+   color: #fff;
+}
+
+.card2 .card-with-not {
+   display: flex;
+}
+
+.card2 .seta_not {
+   width: 20px;
+   height: 20px;
+   padding-left: 2px;
+}
+
+/* Footer */
+#container_footer {
+   height: 1000px;
+   width: 375px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px 0;
+}
+
+.contact_section {
+   background-color: #5468E7;
+   border-radius: 24px;
+   height: 548px;
+   width: 312px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+.converse_img {
+   padding-left: 40px;
+
+}
+
+.hello_section {
+   display: flex;
+   flex-direction: row;
+   width: 90px;
+   justify-content: space-between;
+}
+
+.hello_section .converse_title {
+   font-weight: 600;
+   font-size: 14px;
+   color: #FFFFFF;
+}
+
+.contact_section .converse_paragraph {
+   width: 236px;
+   height: 72px;
+   font-weight: 600;
+   font-size: 18px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.contact_section h2{
+   width: 260px;
+   height: 80px;
+   font-weight: 700;
+   font-size: 32px;
+   text-align: center;
+   color: #FFFFFF;   
+}
+
+.contact-us_btn{
+   Width:263px;
+   Height:56px;
+   background: #FFFFFF;
+   border: none;
+   outline: none;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: scale 0.2 ease;
+   color:#5468E7;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+}
+
+.contact-us_btn:hover {
+   scale: 1.05;
+   background-color: #2b3473;
+   color: #FFFFFF;
+}
+
+.contact-us_btn:active {
+   scale: 0.95;
+}
+
+hr {
+   width: 312px;
+   height: 2px;
+   mix-blend-mode: normal;
+   opacity: 0.2;
+   border: 0.711111px solid #FFFFFF;
+ }
+
+ .converse_paragraph2 {
+   width: 256px;
+   height: 56px;
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   color: #ADADAD;
+ }
+
+ .dropdown_section {
+   Width: 311px;
+   Height: 48px;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+   font-size: 14px;
+   border: 1px solid #D8D8D8;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   color: #606060;
+
+}
+
+.dropdown_section i {
+   padding-left: 220px ;
+}
+
+.dropdown_section:hover {
+   border: 2px solid #5468E7;
+}
+
+.dropdown_section:hover i{
+   color: #5468E7;
+}
+
+.direitos {
+   right: 11.76%;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   color: #ADADAD;
+}
+
+
+
+
+
 
