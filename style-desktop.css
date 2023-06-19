@@ -600,25 +600,92 @@
     }
  
     .title_section {
-        display: flex;
         width: 146px;
         height: 24px;
-        justify-content: space-between;
         margin-left: 300px;
         padding: 0;
      }
      
      .title_section p {
-        color: #ADADAD;
         font-size: 18px;
      }
      
      .title_section h2 {
-        color: #FFFFFF;
         font-size: 18px;
         
      }
+     .subtitle_section {
+        margin-left: 300px;
+        padding: 0;
+     }
      
+     .subtitle_section p {
+        Width: 668px;
+        Height: 144px;
+        font-size: 64px;
+        margin: 24px 0;
+     }
+     
+     .menu_section {
+        width: 144px;
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 300px;
+        padding: 0;
+     }
 
+     .arrows {
+        height: 64px;
+     }
+     
+     .dropdown_year {
+        display: none;
+     }
+     
+     .img_section{
+        display: none;
+     }
+     .img_section-desk{
+        display: block;
+        display: flex;
+        justify-content: center;
+     }
+
+     .txt_section {
+        display: flex;
+        flex-direction: row;
+        gap: 56px;
+        justify-content: center;
+        align-items: center;
+     }
+     
+     .textos {
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 100px  0 0 0;
+     }
+     
+     .txt01 {
+        Width: 468px;
+        Height: 80px;
+        font-size: 32px;
+     }
+     
+     .txt02 {
+        width: 468px;
+        height: 96px;   
+        
+        font-size: 18px;
+        padding: 0;
+     }
+     
+     .decoration {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.3);
+     }
 }
 

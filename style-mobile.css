@@ -201,6 +201,10 @@ header {
    font-size: 14px;
 }
 
+.img_section-desk{
+   display: none;
+}
+
 .dropdown_year i {
    padding-left: 30px ;
 }
