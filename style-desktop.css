@@ -590,6 +590,34 @@
        
     }
 
+    /* Quem somos */
+
+    #container_who-we-are {
+        Width: 1440;
+        Height: 1670px;
+        background-color: #232340;
+        padding-top: 64px;
+    }
+ 
+    .title_section {
+        display: flex;
+        width: 146px;
+        height: 24px;
+        justify-content: space-between;
+        margin-left: 300px;
+        padding: 0;
+     }
+     
+     .title_section p {
+        color: #ADADAD;
+        font-size: 18px;
+     }
+     
+     .title_section h2 {
+        color: #FFFFFF;
+        font-size: 18px;
+        
+     }
      
 
 }

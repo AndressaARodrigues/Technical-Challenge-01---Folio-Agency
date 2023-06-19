@@ -58,6 +58,7 @@ header {
 /* Inicio */
 
 #container_intro {
+   /*width:375px*/
    height: 740px;
    display: flex;
    flex-direction: row; 
@@ -129,7 +130,7 @@ header {
 /* Quem somos */
 
 #container_who-we-are {
-   width: 375px;
+   /*width:375*/
    height: 1681px;
    background-color: #232340;
    padding-top: 64px;
@@ -268,7 +269,6 @@ header {
 /* O que fazemos */
 
 #container_what-we-do {
-   width: 375px;
    height: 1280px;
    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
    padding-top: 64px;
