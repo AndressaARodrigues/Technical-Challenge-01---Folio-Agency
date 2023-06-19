@@ -364,7 +364,8 @@ header {
 
 #container_we-are-hiring{
    width: 375px;
-   height: 1060px;
+   height: 1100px;
+   padding-top: 44px;
 }
 .subtitle_section3{
    padding-left: 32px;
@@ -587,7 +588,7 @@ hr {
 
 /* Projetos Famosos*/
 .container_famous-projects {
-   height: 3084px;
+   height: 3400px;
    width: 375px;
    display: flex;
    flex-direction: column;
@@ -638,10 +639,10 @@ hr {
 }
 
 .cards_section3 {
-   height: 4500px;
+   height: 3800px;
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 .card3 {
