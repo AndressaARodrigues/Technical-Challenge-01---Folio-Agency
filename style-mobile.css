@@ -364,8 +364,7 @@ header {
 
 #container_we-are-hiring{
    width: 375px;
-   height: 1160px;
-   padding-top: 44px;
+   height: 1060px;
 }
 .subtitle_section3{
    padding-left: 32px;
@@ -586,8 +585,132 @@ hr {
    color: #ADADAD;
 }
 
+/* Projetos Famosos*/
+.container_famous-projects {
+   height: 3084px;
+   width: 375px;
+   display: flex;
+   flex-direction: column;
+   /*justify-content: space-around;
+   */
+   padding:  20px 0 0 32px ;
+}
 
+.title_section3 {
+   display: flex;
+   width: 150px;
+   justify-content: space-between;
+   color: #5468E7;
+}
 
+.title_section3 p {
+   font-size: 14px;
+}
 
+.title_section3 h2 {
+   font-size: 14px;
+   
+}
 
+.subtitle_section4{
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
 
+.subtitle_section4 p {
+   width: 280px;
+   height: 48px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #232340;
+   margin: 24px 0;
+}
+
+.subtitle_section4 .paragraph5 {
+   width: 311px;
+   height: 84px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #606060;
+}
+
+.cards_section3 {
+   height: 4500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.card3 {
+   width: 311px;
+   height: 610px;
+   border-radius: 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 16px;
+   /*flex-direction: column;
+   gap: 5px;
+   transition: background-color 0.3s, color 0.3s; 
+   padding-left: 35px;*/
+}
+
+.cor_fundo{
+   Width: 311px;
+   Height: 355.56px;
+   background-color: #FFBA79;
+   
+border-radius: 17.0667px;
+}
+
+.title_card {
+   width: 312px;
+   height: 32px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 32px;
+   color: #232340;
+}
+
+.subtitle_card {
+   width: 250px;
+   height: 84px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   color: #606060;
+}
+
+.seta_btn {
+   color: #232340;
+   transition: color 0.3s; /* Adicionado para criar uma transição suave */
+}
+
+.card2:hover .seta {
+   color: #fff;
+}
+
+.card2 .card-with-not {
+   display: flex;
+}
+
+.seta_btn {
+   width: 48px;
+   height: 48px;
+   background-color: #FFFFFF;
+   border: 1px solid #000;
+   border-radius: 100%;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: scale 0.2s ease;
+}
+
+.seta_btn i {
+   text-align: center;
+}
