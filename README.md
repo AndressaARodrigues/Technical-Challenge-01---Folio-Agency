@@ -16,7 +16,7 @@ Este é o repositório do projeto de Andressa De Almeida Rodrigues. Contém a pa
 ## Estrutura do Projeto
 
 - `index.html`: Página inicial do site.
-- `style-mobile.css`: Arquivo de estilo principal (mobile first).
+- `style-mobile.css`: Arquivo de estilo principal (mobile first - width: 375px).
 - `style-desktop.css`: Arquivo de estilo para dispositivos móveis.
 - `style-tablet.css`: Arquivo de estilo para tablets.
 - Outros arquivos de imagem e ícone necessários para o design do site na pasta `imgs`.
