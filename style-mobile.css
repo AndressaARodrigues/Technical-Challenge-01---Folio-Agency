@@ -130,7 +130,6 @@ header {
 /* Quem somos */
 
 #container_who-we-are {
-   /*width:375*/
    height: 1681px;
    background-color: #232340;
    padding-top: 64px;
@@ -181,7 +180,7 @@ header {
    background-color: #232340;
    border: none;
    outline: none;
-   border-radius: 24px;
+   border-radius: 100%;
    cursor: pointer;
    transition: scale 0.2 ease;
 }
@@ -201,16 +200,16 @@ header {
    font-size: 14px;
 }
 
-.img_section-desk{
-   display: none;
-}
-
 .dropdown_year i {
    padding-left: 30px ;
 }
 
 .dropdown_year:hover {
    background-color: #5468E7;
+}
+
+.img_section-desk{
+   display: none;
 }
 
 .img_section {
@@ -309,6 +308,12 @@ header {
    margin: 24px 0;
 }
 
+.menu_section2 {
+   width: 309px;
+   display: flex;
+   justify-content: space-between;
+   padding-left: 33px;
+}
 
 .arrows2 {
    width: 48px;
